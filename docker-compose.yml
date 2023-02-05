@@ -10,3 +10,10 @@ services:
       - ./src:/app
     stdin_open: true
     tty: true
+# rails と 連携する場合はコメントアウトを外す
+#     networks:
+#       external-network:
+#         ipv4_address: 192.168.192.2
+# networks:
+#   external-network:
+#     external: true
