@@ -31,3 +31,7 @@ docker compose build
 ```
 docker compose run --rm frontend yarn create next-app .
 ```
+# copy する場合
+- src ディレクトリを削除する。
+- docker-compose.yml の service 名、container_name を任意のものに変更する。
+- 3. 4. を実施する。
